@@ -28,7 +28,6 @@ class StudentServiceEmailValidate {
 		String email = "reema@gmail.com";
 		String pass = "password";
 		boolean validateEmail = studentService.validateStudent(email, pass);
-		System.out.println("Done");
         assertEquals(true, validateEmail);
 	}
 
